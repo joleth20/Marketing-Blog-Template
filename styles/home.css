@@ -220,9 +220,16 @@ z-index: 1;
     background: var(--input-background);
     border: none;
     padding: 3px 3px 3px 24px;
+    outline: none;
 }
 
 .home .home-content form input::placeholder{
+    color: var(--color-white);
+    font-family: var(--avenir-light);
+    font-size: 16px;
+}
+
+.home .home-content form input:focus{
     color: var(--color-white);
     font-family: var(--avenir-light);
     font-size: 16px;
