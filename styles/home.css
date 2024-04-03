@@ -13,7 +13,7 @@
 }
 
 .home{
-    height: 100%;
+    height: 100vh;
     width: 100%;
 
 }
@@ -271,9 +271,6 @@ align-items: center;
 
 @media (max-width:360px){
 
-    .home{
-        overflow: hidden;
-    }
 
     .home .header {
         height: 119px;
@@ -332,7 +329,7 @@ align-items: center;
         justify-content: space-between;
         /* flex-direction: column; */
         position: fixed;
-        top: 445px;
+        top: 470px;
         left: 115px;
         z-index: 100;
         transform: scale(1,0);
@@ -377,7 +374,7 @@ align-items: center;
     }
 
     .home .home-content {
-        height: 423px;
+        height: 100%;
         background-size: cover;
     }
 
