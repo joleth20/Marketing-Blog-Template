@@ -13,7 +13,7 @@
 }
 
 .home{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 
 }
@@ -271,6 +271,10 @@ align-items: center;
 
 @media (max-width:360px){
 
+    .home{
+        overflow: hidden;
+    }
+
     .home .header {
         height: 119px;
         width: 100%;
@@ -309,7 +313,7 @@ align-items: center;
         position: fixed;
         top: 0;
         z-index: 100;
-        background: #1F232C;
+        background: var(--color-background);
         transform: scale(1,0);
         transform-origin: top;
     }
@@ -353,7 +357,7 @@ align-items: center;
 
     .home .header .social-media-container .logos.show-icon{
         transform: scale(1,1);
-        transition: all 400ms ease;
+        transition: all 800ms ease;
     }
 
     .home .header .social-media-container .logos.show-icon li img{
