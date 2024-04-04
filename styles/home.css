@@ -249,6 +249,14 @@ z-index: 1;
     font-family: var(--avenir-light);
     font-size: 16px;
     font-weight: bold;
+    transition: all 500ms ease;
+}
+
+.home .home-content form button:hover{
+    background: none;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    cursor: pointer;
 }
 
 .home .footer{
