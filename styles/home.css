@@ -281,7 +281,7 @@ align-items: center;
 
 
     .home{
-        height: 100vh;
+        height: 100%;
         width: 100%;
     
     }
@@ -449,6 +449,12 @@ align-items: center;
         font-weight: bold;
     }
     
+    .home .home-content form button:hover{
+        background: unset;
+        box-shadow: unset;
+        color: var(--color-background);
+    }
+
     .home .footer{
         height: 59px;
         padding: 0px 70px;
