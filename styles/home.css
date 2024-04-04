@@ -272,6 +272,11 @@ align-items: center;
 @media (max-width:360px){
 
 
+    .home{
+        height: 100vh;
+        width: 100%;
+    
+    }
     .home .header {
         height: 119px;
         width: 100%;
@@ -374,7 +379,7 @@ align-items: center;
     }
 
     .home .home-content {
-        height: 71%;
+        height: 423px;
         background-size: cover;
     }
 
@@ -437,7 +442,6 @@ align-items: center;
     }
     
     .home .footer{
-        height: 59px;
         padding: 0px 70px;
     }
 
