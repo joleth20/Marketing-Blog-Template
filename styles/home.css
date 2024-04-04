@@ -387,7 +387,7 @@ align-items: center;
     }
 
     .home .home-content {
-        height: 530px;
+        height: 600px;
         background-size: cover;
     }
 
@@ -450,9 +450,9 @@ align-items: center;
     }
     
     .home .home-content form button:hover{
-        background: unset;
+        background: var(--color-theme);
+        color: var(--button-text-color);
         box-shadow: unset;
-        color: var(--color-background);
     }
 
     .home .footer{
