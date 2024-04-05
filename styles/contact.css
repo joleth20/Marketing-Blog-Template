@@ -688,6 +688,7 @@ align-items: center;
         height: 336px;
         width: 100%;
         background: url('../assets/img-contact/building-img.webp');
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
