@@ -256,6 +256,10 @@ display: flex;
     background-color: var(--error-input-background);
 }
 
+.contact .contact-content .contact-me-here form .firstname input:hover{
+    box-shadow: 0px 0px 0px 2px;
+}
+
 
 .contact .contact-content .contact-me-here form .lastname{
     height: 62px;
