@@ -242,8 +242,6 @@ display: flex;
 }
 
 .contact .contact-content .contact-me-here form .firstname input:focus{
-    height: 34px;
-    width: 215px;
     border: 1px solid var(--color-background);
     font-family: var(--avenir-light);
     padding: 3px 3px 3px 12px;
