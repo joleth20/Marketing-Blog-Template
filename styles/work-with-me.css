@@ -558,7 +558,7 @@ align-items: center;
         align-items: center;
         justify-content: center;
         padding: 20px 20px;
-        row-gap: 60px;
+        row-gap: 30px;
     }
 
     .work-with-me .second-container .marketing-strategy {
@@ -584,7 +584,7 @@ align-items: center;
 
     .work-with-me .second-container .marketing-strategy .text p {
         height: 171px;
-        width: 268px;
+        width: 100%;
     }
 
     .work-with-me .second-container .marketing-strategy .img-svg svg {
@@ -620,7 +620,7 @@ align-items: center;
 
     .work-with-me .second-container .digital .text p {
         height: 120px;
-        width: 268px;
+        width: 100%;
         font-family: var(--avenir-light);
         font-size: 15px;
         line-height: 1.8em;
@@ -655,7 +655,7 @@ align-items: center;
 
     .work-with-me .second-container .email-marketing .text p {
         height: 171px;
-        width: 280px;
+        width: 100%;
         font-family: var(--avenir-light);
         font-size: 15px;
         line-height: 1.8em;
