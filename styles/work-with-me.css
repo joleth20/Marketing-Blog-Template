@@ -701,6 +701,10 @@ align-items: center;
         outline: none;
     }
 
+    .work-with-me .third-container button:hover{
+        background-color: var(--color-theme);
+    }
+
 
     .work-with-me-content .footer{
         height: 70px;
