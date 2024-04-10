@@ -86,7 +86,17 @@
     transition: all 300ms ease;
 }
 
+
+.contact .header .title-container .hamburger-container div:nth-child(1){
+    width: 15px;
+}
+
+.contact .header .title-container .hamburger-container div:nth-child(3){
+    width: 20px;
+}
+
 .contact .header .title-container .hamburger-container.close .bar:nth-child(1){
+    width: 30px;
     transform: translate(0, 11px) rotate(-45deg);
     transition: all 300ms ease;
     background-color: var(--color-theme);
@@ -98,6 +108,7 @@
 }
 
 .contact .header .title-container .hamburger-container.close .bar:nth-child(3){
+    width: 30px;
     transform: translate(0, -7px) rotate(45deg);
     transition: all 300ms ease;
     background-color: var(--color-theme);
