@@ -79,7 +79,7 @@
 
 .contact .header .title-container .hamburger-container >div{
     display: none;
-    height: 3px;
+    height: 2px;
     width: 30px;
     margin: 6px 0px;
     background-color: var(--color-white);
@@ -109,7 +109,7 @@
 
 .contact .header .title-container .hamburger-container.close .bar:nth-child(3){
     width: 30px;
-    transform: translate(0, -7px) rotate(45deg);
+    transform: translate(0, -5px) rotate(45deg);
     transition: all 300ms ease;
     background-color: var(--color-theme);
     z-index: 1000;
